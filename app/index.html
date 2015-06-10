@@ -37,9 +37,9 @@
 <script type="text/javascript">
 
     angular
-            .module('app', [])                     //This does work
-//            .module('app', ['ngMock'])              //This does *NOT* work
-//            .module('app', ['ngMaterial-mock'])     //This does *NOT* work
+//            .module('app', [])                                //This does work
+//            .module('app', ['ngMock'])                        //This does *NOT* work
+            .module('app', ['ngMock', 'ngMaterial-mock'])       //This does *NOT* work
             .controller('AppController', function() {
                 var vm = this;
 
